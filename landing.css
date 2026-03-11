@@ -1,0 +1,79 @@
+﻿* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background: #e9f3f7;
+  color: #1f2a36;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+}
+
+.landing {
+  width: min(960px, 100%);
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.qr-badge {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.qr-image {
+  width: 64px;
+  height: 64px;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 6px;
+  border: 1px solid rgba(31, 42, 54, 0.15);
+}
+
+.grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.card {
+  text-decoration: none;
+  color: #ffffff;
+  background: #1f2a36;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  padding: 18px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80px;
+  transition: transform 120ms ease, background 120ms ease, border-color 120ms ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  background: #223143;
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 26px;
+  }
+}

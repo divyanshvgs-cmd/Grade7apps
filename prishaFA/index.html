@@ -1,0 +1,40 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prisha's App</title>
+  <link rel="stylesheet" href="../shared/app.css">
+</head>
+<body class="page">
+  <h1 class="page-title">Prisha's App</h1>
+  <main class="page-content">
+    <div class="phone-shell">
+      <div class="phone" style="--app-bg: #deeaf1;">
+        <div class="notch"></div>
+        <div class="screen">
+          <div class="app" data-app data-initial-screen="Screen1">
+            <section class="screen-panel" data-screen="Screen1">
+              <p class="ai-label font-sans" style="font-size: 35px; font-weight: 700; font-style: italic;">Dance Forms Of India</p>
+              <div class="table dance-grid" style="grid-template-columns: repeat(2, 1fr);">
+                <button class="ai-button" data-speak="Bharatanatyam (Tamil Nadu): Regarded as one of the oldest classical forms, it is known for its grace, precision, and geometric movements. It is a solo dance, characterized by a bent-knee stance, and tells stories using abhinaya (expression) and nritta (pure dance).">Bharatanatyam</button>
+                <img class="ai-image dance-image" src="../assets/prishaFA/bharatanatayam.jpg" alt="Bharatanatyam">
+
+                <button class="ai-button" data-speak="Kathak (Uttar Pradesh): Originating from North India, this form is characterized by intricate footwork, rapid spins, and dramatic storytelling. Historically, it was performed by traveling bards known as Kathakars, who narrated tales with expressive gestures.">Khatak</button>
+                <img class="ai-image dance-image" src="../assets/prishaFA/khatak.jpg" alt="Khatak">
+
+                <button class="ai-button" data-speak="Odissi (Odisha): Originating from temple traditions, Odissi is defined by its lyrical grace, fluid torso movements, and distinct poses like the tribhangi (three-fold bend). It often features performances that embody the sculptures found in ancient temples.">Odissi</button>
+                <img class="ai-image dance-image" src="../assets/prishaFA/odissi.webp" alt="Odissi">
+
+                <button class="ai-button" data-speak="Kathakali (Kerala): A deeply dramatic, specialized dance-drama renowned for its elaborate makeup, vibrant masks, and heavy costumes. Male dancers traditionally perform this, using exaggerated facial expressions and eye movements to portray characters from epics like the Ramayana and Mahabharata.">Kathakali</button>
+                <img class="ai-image dance-image" src="../assets/prishaFA/kathakali.jpg" alt="Kathakali">
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="../shared/app.js"></script>
+</body>
+</html>

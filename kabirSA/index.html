@@ -1,0 +1,46 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kabir's App</title>
+  <link rel="stylesheet" href="../shared/app.css">
+</head>
+<body class="page">
+  <h1 class="page-title">Kabir's App</h1>
+  <main class="page-content">
+    <div class="phone-shell">
+      <div class="phone" style="--app-bg: #cc7722;">
+        <div class="notch"></div>
+        <div class="screen">
+          <div class="app" data-app data-initial-screen="Screen1">
+            <section class="screen-panel" data-screen="Screen1">
+              <div class="table" style="grid-template-columns: repeat(2, 1fr);">
+                <img class="ai-image" src="../assets/kabirSA/IMG_4541.png" alt="IMG_4541">
+                <img class="ai-image" src="../assets/kabirSA/IMG_4542.png" alt="IMG_4542">
+              </div>
+
+              <p class="ai-label">RESPONSIBLE CONSUMPTION AND PRODUCTION</p>
+
+              <button class="ai-button" data-speak="Goal 12: Responsible Consumption and Production focuses on ensuring sustainable consumption and production patterns to reduce environmental impact and promote efficient use of resources.">What is Responsible Consumption and Production?</button>
+              <button class="ai-button" data-speak="Reducing food waste is a key target under Goal 12 because nearly one-third of all food produced globally is wasted, leading to economic loss and environmental damage.">How does food waste relate to Goal 12?</button>
+              <button class="ai-button" data-speak="One major target is to substantially reduce waste generation through prevention, reduction, recycling, and reuse by 2030.">What is one major target of Goal 12?</button>
+              <button class="ai-button" data-go="Screen2">Next-</button>
+
+              <div class="table center" style="grid-template-columns: 1fr;">
+                <img class="ai-image" src="../assets/kabirSA/IMG_4543.png" alt="IMG_4543" style="height: 125px; width: auto;">
+              </div>
+            </section>
+
+            <section class="screen-panel" data-screen="Screen2" hidden>
+              <img class="ai-image" src="../assets/kabirSA/IMG_4543.png" alt="IMG_4543" style="height: 150px; width: 150px;">
+              <button class="ai-button" data-speak="Reduce &amp; Reuse: Buy less, choose durable goods, and repair items instead of throwing them away. Conscious Consumerism: Avoid excessive packaging, switch to reusable products (bags, bottles), and shop second-hand. Food Management: Reduce food waste by planning meals, storing food properly, and composting. Energy Efficiency: Turn off lights, unplug electronics, and use energy-efficient appliances.">What action can be taken to achieve this global goal?</button>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="../shared/app.js"></script>
+</body>
+</html>
